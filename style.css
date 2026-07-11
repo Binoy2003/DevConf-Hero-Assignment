@@ -82,3 +82,52 @@ nav ul li a{
   padding: 15px 35px;
   margin-top: 230px;
 }
+.speaker-parent-container{
+  margin: 80px auto;
+  text-align: center;
+   max-width: 1540px;
+}
+.speaker-parent-container h1{
+  text-align: center;
+  font-weight: 700;
+  font-family: "Inter";
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+.speaker-guest-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+.guest-container{
+  border: 1px solid rgb(232, 229, 229);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+.guest-info{
+  padding: 25px 20px;
+  text-align: left;
+    padding: 15px 10px;
+}
+.guest-info h3{
+  font-size: 26px;
+    margin-bottom: 10px;
+    font-family: "Inter";
+}
+.guest-info P{
+  font-size: 25px;
+    color: #2563EB;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.guest-info h5{
+  font-size: 25px;
+    color: #575757;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-family: "Inter";
+}
