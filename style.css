@@ -131,3 +131,84 @@ nav ul li a{
     margin-bottom: 10px;
     font-family: "Inter";
 }
+
+.pricing-parent-container{
+  max-width: 1100px;
+  margin: 100px auto;
+  text-align: center;
+}
+.pricing-parent-container h1{
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-family: "Inter";
+}
+.pricing-subtitle{
+  color: #575757;
+  margin-bottom: 10px;
+}
+.pricing-card-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: center;
+}
+.pricing-card{
+  border: 1px solid  #E5E7EB;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+}
+.pricing-card h1{
+  font-size: 40px;
+  margin-top: 10px;
+}
+.pricing-card span{
+  color: #6B7280;
+  font-size: 13px;
+}
+.pricing-card hr{
+  margin: 25px 0;
+  border: 1px solid #E5E7EB;
+}
+
+.pricing-card ul{
+  list-style: none;
+  margin-bottom: 30px;
+}
+.pricing-card ul li{
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+.pricing-btn{
+  width: 100%;
+  padding: 13px;
+  background-color:white;
+  color: #2563EB;
+   border: 1px solid #2563EB;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.common-btn-price{
+  width: 100%;
+  padding: 13px;
+  background-color:#2563EB;
+  color: white;
+   border: 1px solid #2563EB;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pricing-btn-3{
+  width: 100%;
+  padding: 13px;
+  background-color:white;
+  color: #000000;
+   border: 1px solid #000000;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.pro-card{
+  background-color: #0F1D2D;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
